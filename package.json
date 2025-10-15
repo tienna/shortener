@@ -8,8 +8,7 @@
     "start": "node server/server.js --production",
     "migrate": "knex migrate:latest",
     "migrate:make": "knex migrate:make",
-    "docs:build": "cd docs/api && node generate && cd ../..",
-    "build": "npm run migrate"
+    "docs:build": "cd docs/api && node generate && cd ../.."
   },
   "repository": {
     "type": "git",
